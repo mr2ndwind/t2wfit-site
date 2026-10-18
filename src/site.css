@@ -234,7 +234,7 @@ footer a:hover{color:var(--red)}
   --head:'Public Sans',ui-sans-serif,system-ui,sans-serif;--body:'Public Sans',ui-sans-serif,system-ui,sans-serif;--wrap:1120px}
 body{background:#000}
 h1,h2,h3,h4{font-weight:800;letter-spacing:-.02em;line-height:1.02}
-h1{font-size:clamp(2.6rem,6.4vw,4.5rem);letter-spacing:-.025em;line-height:1}
+h1{font-size:clamp(2.4rem,5.2vw,4rem);letter-spacing:-.025em;line-height:1}
 h2{font-size:clamp(1.9rem,4vw,3rem)} h3{font-size:1.2rem;text-transform:none;letter-spacing:-.01em;line-height:1.2}
 .eyebrow{display:inline-block;border:1px solid rgba(254,168,47,.55);border-radius:999px;padding:8px 14px;font-size:.72rem;letter-spacing:.12em;font-weight:700;margin-bottom:22px}
 .center .eyebrow{margin-left:auto;margin-right:auto}
@@ -270,7 +270,7 @@ footer{background:#000}
 .hero{padding:72px 0 80px;background:#000}
 .hero::before,.hero::after{display:none}
 .hero-img{opacity:.22;filter:grayscale(.2)}
-.hero .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero .hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}
 @media (max-width:900px){.hero .hero-grid{grid-template-columns:1fr}.hero{padding:48px 0 56px}}
 .hero h1{margin-bottom:.4em}
 .hero .lead{font-size:1.1rem;color:#fff;font-weight:600;max-width:560px}
