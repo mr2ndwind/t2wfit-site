@@ -29,6 +29,9 @@ FAQ = json.loads((ROOT / "content" / "faq.json").read_text())
 PROGRAMS = json.loads((ROOT / "content" / "programs.json").read_text())
 
 
+import hashlib as _h
+CSS_V=_h.md5(open(__file__.replace("build.py","src/site.css"),"rb").read()).hexdigest()[:8]
+
 def esc(s):
     return html.escape(s, quote=True)
 
@@ -175,7 +178,7 @@ def layout(title, desc, path, body, active=None, schema=None, noindex=False):
 <link rel="icon" href="{CFG['logo']}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}assets/site.css">
+<link rel="stylesheet" href="{root}assets/site.css?v={CSS_V}">
 {ld}
 </head><body>
 <header class="top"><div class="wrap">
