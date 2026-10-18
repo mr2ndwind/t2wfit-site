@@ -1,279 +1,288 @@
 {
- "categories": [
-  {
-   "key": "at-home",
-   "title": "Train at Home",
-   "intro": "Free weights or bodyweight only. Follow a clear plan without a gym membership."
-  },
-  {
-   "key": "at-the-gym",
-   "title": "Train at the Gym",
-   "intro": "Splits and machine plans for every level, from your first week to advanced lifters."
-  },
-  {
-   "key": "glutes",
-   "title": "Glute Programs",
-   "intro": "Focused glute training from 15-minute band sessions to intermediate power work."
-  },
-  {
-   "key": "arms",
-   "title": "Arm Programs",
-   "intro": "Dedicated arm training you can add on top of your regular routine."
-  },
-  {
-   "key": "conditioning",
-   "title": "Conditioning",
-   "intro": "Intervals, metabolic conditioning and suspension training to build your engine."
-  },
-  {
-   "key": "core-bodyweight",
-   "title": "Core &amp; Bodyweight",
-   "intro": "Strength and control with no equipment required."
-  }
- ],
- "programs": [
-  {
-   "name": "At Home: Bodyweight (2-3x/Week)",
-   "category": "at-home",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Train at home with no equipment and a plan that keeps you moving forward.",
-   "best": "Best for: Anyone training at home without equipment.",
-   "buy_url": ""
-  },
-  {
-   "name": "At Home: Free Weights (2x/Week)",
-   "category": "at-home",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A simple two-day-a-week plan to build strength at home with free weights.",
-   "best": "Best for: Home exercisers with dumbbells or free weights and a busy schedule.",
-   "buy_url": ""
-  },
-  {
-   "name": "At Home: Free Weights (3x/Week)",
-   "category": "at-home",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A three-day-a-week plan to build strength at home with free weights.",
-   "best": "Best for: Home exercisers with free weights who want more training volume.",
-   "buy_url": ""
-  },
-  {
-   "name": "8W Beginner Smith Machine",
-   "category": "at-the-gym",
-   "weeks": 8,
-   "price": 50,
-   "blurb": "Eight weeks of beginner strength training built around the Smith machine.",
-   "best": "Best for: Newer lifters who want a guided, machine-supported way to build strength.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Advanced Lower Body (5-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of advanced lower body training inside a five-day split.",
-   "best": "Best for: Experienced lifters who train five days a week and want dedicated lower body work.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Advanced Upper Body (5-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of advanced upper body training inside a five-day split.",
-   "best": "Best for: Experienced lifters who train five days a week and want dedicated upper body work.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Beginner Lower Body Focus (3-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A beginner-friendly, three-day plan that puts the focus on building lower body strength.",
-   "best": "Best for: Newer gym members who want a clear plan with extra lower body emphasis.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Beginner Upper Body Focus (3-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A beginner-friendly, three-day plan that puts the focus on building upper body strength.",
-   "best": "Best for: Newer gym members who want a clear plan with extra upper body emphasis.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Intermediate Lower Body (4-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of intermediate lower body training inside a four-day split.",
-   "best": "Best for: Lifters with a solid base who train four days a week.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Intermediate Upper Body (4-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of intermediate upper body training inside a four-day split.",
-   "best": "Best for: Lifters with a solid base who train four days a week.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Limited Equipment/Machines",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A gym plan built for smaller facilities and limited equipment.",
-   "best": "Best for: Members of smaller gyms or anyone working with limited equipment.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Machines (2-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A simple two-day plan built around gym machines.",
-   "best": "Best for: Newer gym members who want an easy-to-follow, machine-based routine.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Machines (3-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A three-day plan built around gym machines.",
-   "best": "Best for: Gym members who prefer machines and can train three days a week.",
-   "buy_url": ""
-  },
-  {
-   "name": "At the Gym: Machines (4-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "A four-day plan built around gym machines.",
-   "best": "Best for: Gym members who prefer machines and can train four days a week.",
-   "buy_url": ""
-  },
-  {
-   "name": "Upper Body at the Gym (3-Day Split)",
-   "category": "at-the-gym",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "One month of upper body training inside a three-day split.",
-   "best": "Best for: Gym members who want a clear upper body plan.",
-   "buy_url": ""
-  },
-  {
-   "name": "Beginner Booty Basics Blast: DB / Bench (30-Min, 3-Day)",
-   "category": "glutes",
-   "weeks": 8,
-   "price": 50,
-   "blurb": "Eight weeks of beginner glute training in 30-minute sessions.",
-   "best": "Best for: Beginners with dumbbells and a bench who want to build glute strength.",
-   "buy_url": ""
-  },
-  {
-   "name": "Booty Building Essentials: Bands Only (15-Min, Beginner, 3-Day)",
-   "category": "glutes",
-   "weeks": 8,
-   "price": 50,
-   "blurb": "Eight weeks of beginner glute training in quick 15-minute, bands-only sessions.",
-   "best": "Best for: Beginners with resistance bands and a tight schedule.",
-   "buy_url": ""
-  },
-  {
-   "name": "Intermediate Glute Power-Up (3x/Week)",
-   "category": "glutes",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of intermediate glute training to build strength and power.",
-   "best": "Best for: Exercisers with some training experience who want to level up glute work.",
-   "buy_url": ""
-  },
-  {
-   "name": "8-Week Arms",
-   "category": "arms",
-   "weeks": 8,
-   "price": 50,
-   "blurb": "Eight focused weeks to build stronger, more defined arms with a plan you can follow on your own.",
-   "best": "Best for: Anyone who wants dedicated arm work added to their training.",
-   "buy_url": ""
-  },
-  {
-   "name": "Big Arms Barbell/Dumbbell/Cable",
-   "category": "arms",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of arm training built around barbells, dumbbells and cables.",
-   "best": "Best for: Gym members with free weights and a cable station who want focused arm work.",
-   "buy_url": ""
-  },
-  {
-   "name": "Big Arms Lever/Cable",
-   "category": "arms",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of arm training built around lever machines and cables.",
-   "best": "Best for: Gym members who prefer machines and cables for arm work.",
-   "buy_url": ""
-  },
-  {
-   "name": "Advanced Metabolic Conditioning (3x/week)",
-   "category": "conditioning",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of advanced conditioning, three days a week, for people ready to push their engine.",
-   "best": "Best for: Experienced exercisers who want more conditioning volume.",
-   "buy_url": ""
-  },
-  {
-   "name": "Metabolic Conditioning (2x/week) Advanced",
-   "category": "conditioning",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of advanced conditioning in two focused sessions a week.",
-   "best": "Best for: Experienced exercisers who want hard conditioning work on a lighter schedule.",
-   "buy_url": ""
-  },
-  {
-   "name": "Suspension Training",
-   "category": "conditioning",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Build strength and control with suspension trainer workouts you can do almost anywhere.",
-   "best": "Best for: Anyone with a suspension trainer who wants a clear plan.",
-   "buy_url": ""
-  },
-  {
-   "name": "Tabata And Hiit",
-   "category": "conditioning",
-   "weeks": 8,
-   "price": 50,
-   "blurb": "Eight weeks of high-intensity interval training to build conditioning and work capacity.",
-   "best": "Best for: Anyone who wants short, hard, conditioning-focused workouts.",
-   "buy_url": ""
-  },
-  {
-   "name": "Bodyweight/Calisthenics",
-   "category": "core-bodyweight",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Build strength and body control using only your bodyweight.",
-   "best": "Best for: Anyone who wants to train without equipment.",
-   "buy_url": ""
-  },
-  {
-   "name": "Core Strength and Stability",
-   "category": "core-bodyweight",
-   "weeks": 4,
-   "price": 29,
-   "blurb": "Four weeks of core work to build a stronger, more stable midsection.",
-   "best": "Best for: Anyone who wants to strengthen their core and support the rest of their training.",
-   "buy_url": ""
-  }
- ]
+  "categories": [
+    {
+      "key": "at-home",
+      "title": "Train at Home",
+      "intro": "Free weights or bodyweight only. Follow a clear plan without a gym membership."
+    },
+    {
+      "key": "at-the-gym",
+      "title": "Train at the Gym",
+      "intro": "Splits and machine plans for every level, from your first week to advanced lifters."
+    },
+    {
+      "key": "glutes",
+      "title": "Glute Programs",
+      "intro": "Focused glute training from 15-minute band sessions to intermediate power work."
+    },
+    {
+      "key": "arms",
+      "title": "Arm Programs",
+      "intro": "Dedicated arm training you can add on top of your regular routine."
+    },
+    {
+      "key": "conditioning",
+      "title": "Conditioning",
+      "intro": "Intervals, metabolic conditioning and suspension training to build your engine."
+    },
+    {
+      "key": "core-bodyweight",
+      "title": "Core &amp; Bodyweight",
+      "intro": "Strength and control with no equipment required."
+    }
+  ],
+  "programs": [
+    {
+      "name": "At Home: Bodyweight (2-3x/Week)",
+      "category": "at-home",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Train at home with no equipment and a plan that keeps you moving forward.",
+      "best": "Best for: Anyone training at home without equipment.",
+      "buy_url": ""
+    },
+    {
+      "name": "At Home: Free Weights (2x/Week)",
+      "category": "at-home",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A simple two-day-a-week plan to build strength at home with free weights.",
+      "best": "Best for: Home exercisers with dumbbells or free weights and a busy schedule.",
+      "buy_url": ""
+    },
+    {
+      "name": "At Home: Free Weights (3x/Week)",
+      "category": "at-home",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A three-day-a-week plan to build strength at home with free weights.",
+      "best": "Best for: Home exercisers with free weights who want more training volume.",
+      "buy_url": ""
+    },
+    {
+      "name": "8W Beginner Smith Machine",
+      "category": "at-the-gym",
+      "weeks": 8,
+      "price": 50,
+      "blurb": "Eight weeks of beginner strength training built around the Smith machine.",
+      "best": "Best for: Newer lifters who want a guided, machine-supported way to build strength.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Advanced Lower Body (5-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of advanced lower body training inside a five-day split.",
+      "best": "Best for: Experienced lifters who train five days a week and want dedicated lower body work.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Advanced Upper Body (5-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of advanced upper body training inside a five-day split.",
+      "best": "Best for: Experienced lifters who train five days a week and want dedicated upper body work.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Beginner Lower Body Focus (3-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A beginner-friendly, three-day plan that puts the focus on building lower body strength.",
+      "best": "Best for: Newer gym members who want a clear plan with extra lower body emphasis.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Beginner Upper Body Focus (3-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A beginner-friendly, three-day plan that puts the focus on building upper body strength.",
+      "best": "Best for: Newer gym members who want a clear plan with extra upper body emphasis.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Intermediate Lower Body (4-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of intermediate lower body training inside a four-day split.",
+      "best": "Best for: Lifters with a solid base who train four days a week.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Intermediate Upper Body (4-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of intermediate upper body training inside a four-day split.",
+      "best": "Best for: Lifters with a solid base who train four days a week.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Limited Equipment/Machines",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A gym plan built for smaller facilities and limited equipment.",
+      "best": "Best for: Members of smaller gyms or anyone working with limited equipment.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Machines (2-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A simple two-day plan built around gym machines.",
+      "best": "Best for: Newer gym members who want an easy-to-follow, machine-based routine.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Machines (3-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A three-day plan built around gym machines.",
+      "best": "Best for: Gym members who prefer machines and can train three days a week.",
+      "buy_url": ""
+    },
+    {
+      "name": "At the Gym: Machines (4-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "A four-day plan built around gym machines.",
+      "best": "Best for: Gym members who prefer machines and can train four days a week.",
+      "buy_url": ""
+    },
+    {
+      "name": "Upper Body at the Gym (3-Day Split)",
+      "category": "at-the-gym",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "One month of upper body training inside a three-day split.",
+      "best": "Best for: Gym members who want a clear upper body plan.",
+      "buy_url": ""
+    },
+    {
+      "name": "Beginner Booty Basics Blast: DB / Bench (30-Min, 3-Day)",
+      "category": "glutes",
+      "weeks": 8,
+      "price": 50,
+      "blurb": "Eight weeks of beginner glute training in 30-minute sessions.",
+      "best": "Best for: Beginners with dumbbells and a bench who want to build glute strength.",
+      "buy_url": ""
+    },
+    {
+      "name": "Booty Building Essentials: Bands Only (15-Min, Beginner, 3-Day)",
+      "category": "glutes",
+      "weeks": 8,
+      "price": 50,
+      "blurb": "Eight weeks of beginner glute training in quick 15-minute, bands-only sessions.",
+      "best": "Best for: Beginners with resistance bands and a tight schedule.",
+      "buy_url": ""
+    },
+    {
+      "name": "Intermediate Glute Power-Up (3x/Week)",
+      "category": "glutes",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of intermediate glute training to build strength and power.",
+      "best": "Best for: Exercisers with some training experience who want to level up glute work.",
+      "buy_url": ""
+    },
+    {
+      "name": "8-Week Arms",
+      "category": "arms",
+      "weeks": 8,
+      "price": 50,
+      "blurb": "Eight focused weeks to build stronger, more defined arms with a plan you can follow on your own.",
+      "best": "Best for: Anyone who wants dedicated arm work added to their training.",
+      "buy_url": ""
+    },
+    {
+      "name": "Big Arms Barbell/Dumbbell/Cable",
+      "category": "arms",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of arm training built around barbells, dumbbells and cables.",
+      "best": "Best for: Gym members with free weights and a cable station who want focused arm work.",
+      "buy_url": ""
+    },
+    {
+      "name": "Big Arms Lever/Cable",
+      "category": "arms",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of arm training built around lever machines and cables.",
+      "best": "Best for: Gym members who prefer machines and cables for arm work.",
+      "buy_url": ""
+    },
+    {
+      "name": "Advanced Metabolic Conditioning (3x/week)",
+      "category": "conditioning",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of advanced conditioning, three days a week, for people ready to push their engine.",
+      "best": "Best for: Experienced exercisers who want more conditioning volume.",
+      "buy_url": ""
+    },
+    {
+      "name": "Metabolic Conditioning (2x/week) Advanced",
+      "category": "conditioning",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of advanced conditioning in two focused sessions a week.",
+      "best": "Best for: Experienced exercisers who want hard conditioning work on a lighter schedule.",
+      "buy_url": ""
+    },
+    {
+      "name": "Suspension Training",
+      "category": "conditioning",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Build strength and control with suspension trainer workouts you can do almost anywhere.",
+      "best": "Best for: Anyone with a suspension trainer who wants a clear plan.",
+      "buy_url": ""
+    },
+    {
+      "name": "Tabata And Hiit",
+      "category": "conditioning",
+      "weeks": 8,
+      "price": 50,
+      "blurb": "Eight weeks of high-intensity interval training to build conditioning and work capacity.",
+      "best": "Best for: Anyone who wants short, hard, conditioning-focused workouts.",
+      "buy_url": ""
+    },
+    {
+      "name": "Bodyweight/Calisthenics",
+      "category": "core-bodyweight",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Build strength and body control using only your bodyweight.",
+      "best": "Best for: Anyone who wants to train without equipment.",
+      "buy_url": ""
+    },
+    {
+      "name": "Core Strength and Stability",
+      "category": "core-bodyweight",
+      "weeks": 4,
+      "price": 29,
+      "blurb": "Four weeks of core work to build a stronger, more stable midsection.",
+      "best": "Best for: Anyone who wants to strengthen their core and support the rest of their training.",
+      "buy_url": ""
+    },
+    {
+      "name": "Couch to 5K",
+      "category": "conditioning",
+      "weeks": 8,
+      "price": 19.99,
+      "blurb": "Eight weeks of run-walk progressions that take you from the couch to running a full 5K.",
+      "best": "Best for: Beginners who want a clear, coach-built plan to start running.",
+      "buy_url": ""
+    }
+  ]
 }
