@@ -174,12 +174,12 @@ def layout(title, desc, path, body, active=None, schema=None, noindex=False):
 <meta name="theme-color" content="#0A0A0B">
 <link rel="icon" href="{CFG['logo']}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}assets/site.css">
 {ld}
 </head><body>
 <header class="top"><div class="wrap">
-<a class="logo" href="{root or './'}" aria-label="T2W Fit Training App home"><img src="{CFG['logo']}" alt="T2W Fit" width="140" height="52"></a>
+<a class="logo" href="{root or './'}" aria-label="T2W Fit Training App home"><img src="{CFG.get('nav_logo',CFG['logo'])}" alt="T2W Fit Digital" width="140" height="52"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">MENU</button>
 <nav class="nav" id="nav">{nav}</nav>
 </div></header>
@@ -188,7 +188,7 @@ def layout(title, desc, path, body, active=None, schema=None, noindex=False):
 </main>
 <footer><div class="wrap">
 <div class="foot">
-<div><img src="{CFG['logo']}" alt="T2W Fit" width="150" height="56" style="height:56px;width:auto;margin-bottom:16px">
+<div><img src="{CFG.get('nav_logo',CFG['logo'])}" alt="T2W Fit Digital" width="150" height="56" style="height:56px;width:auto;margin-bottom:16px">
 <p class="muted">Coach-led fitness, athletic performance, accountability, and workouts built for real life.</p>
 <p class="tag">MAKE MOVES, NOT EXCUSES.</p>
 <a class="btn sm" href="{link("trial").replace("{{root}}", root)}" rel="noopener">Start 14 Days Free</a></div>

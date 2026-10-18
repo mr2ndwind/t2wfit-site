@@ -67,5 +67,7 @@
     "transform_beginner": "https://www.trainerize.me/profile/team2ndwind/?planID=76524&mode=checkout",
     "transform_advanced": "https://www.trainerize.me/profile/team2ndwind/?planGUID=b80e75931ec6457ea4714f0f605be487&mode=checkout"
   },
-  "custom_domain": ""
+  "custom_domain": "",
+  "nav_logo": "https://vibe.filesafe.space/1779825322324569551/attachments/238d1ef3-2de4-4a9e-bfc9-359df474be6c.png",
+  "phone_img": "https://vibe.filesafe.space/1779825322324569551/attachments/7a107143-e2f9-4c8d-8e5e-b729df64f4b1.png"
 }
