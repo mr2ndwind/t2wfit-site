@@ -1,12 +1,18 @@
 title: T2W Fit Plans & Pricing | On-Demand, Digital Plus, Online Coaching
-description: Compare T2W Fit Training App plans: On-Demand $14.99/mo, Digital Plus $34.99/mo, Online Coaching from $79/mo, Hybrid Coaching, plus T2W Fit Studio memberships. Start with 14 days free.
+description: Find the right T2W Fit plan in 4 quick questions. Digital training, online coaching, and T2W Fit Studio memberships in Broken Arrow, OK.
 path: plans/
 ---
 <section class="page-hero"><div class="wrap">
 <span class="eyebrow">Plans &amp; Pricing</span><h1>Choose the Level of Support You Need</h1>
 <p class="lead">Start independently or choose more structure, accountability, and personalized coaching as your goals grow. Every digital plan includes snap-and-track meal logging.</p>
-<div class="btns"><a class="btn" href="{{link:trial}}" rel="noopener">Get Your 14 Days Free</a><a class="btn ghost" href="#finder">Find My Plan</a></div>
+<div class="btns"><a class="btn" href="#finder">Find My Plan</a></div>
 </div></section>
+
+<section id="finder"><div class="wrap" style="max-width:760px"><span class="eyebrow">Find Your Plan</span><h2>Answer 4 Quick Questions to See Plans &amp; Pricing</h2>
+<p class="lead">Tell us your goal and the kind of support you want. We will show you the options that fit, and a coach can follow up if you would like help choosing.</p>
+{{survey:plan_finder}}</div></section>
+
+<div id="t2w-plans" hidden>
 
 <section><div class="wrap"><span class="eyebrow">Digital / Remote Training</span><h2>Train From Anywhere</h2>
 <div class="grid g3" style="margin-top:28px">
@@ -41,12 +47,6 @@ path: plans/
 </div>
 <p class="muted" style="margin-top:22px">Looking for Open Gym, class packs, or the full studio schedule? Visit <a href="https://team2ndwind.com/memberships/" rel="noopener">team2ndwind.com</a>.</p></div></section>
 
-<section id="finder"><div class="wrap split">
-<div><span class="eyebrow">Not Ready to Choose?</span><h2>Try On-Demand Free for 14 Days</h2>
-<p class="lead">Explore the training system before deciding how much coaching and accountability you need.</p>
-<a class="btn" href="{{link:trial}}" rel="noopener">Unlock My 14 Days Free</a></div>
-<div>{{quiz}}</div></div></section>
-
 <section class="band"><div class="wrap"><span class="eyebrow">Compare</span><h2>More Than Random Workouts</h2>
 <p class="lead">See why structured app coaching outperforms random exercise videos.</p>
 <div class="sched" style="margin-top:24px">
@@ -62,3 +62,5 @@ path: plans/
 <section><div class="wrap"><span class="eyebrow">Questions?</span><h2>Plan FAQs</h2>
 {{faq:Which plan should I choose?|What is the difference between Digital Plus and Online Coaching?|What comes with the free trial?|Can I cancel anytime?|Does a T2W Fit Studio membership include the app?|Does it include nutrition?}}</div></section>
 {{cta:Start Training With a Plan|Choose your plan and start building strength, consistency, and confidence today.}}
+</div>
+<script>(function(){var ok=false;try{ok=new URLSearchParams(location.search).get("s")==="1";if(ok){localStorage.setItem("t2w_plans","1")}else{ok=localStorage.getItem("t2w_plans")==="1"}}catch(e){}var p=document.getElementById("t2w-plans"),f=document.getElementById("finder");if(ok&&p){p.hidden=false;if(f){f.hidden=true}}})();</script>

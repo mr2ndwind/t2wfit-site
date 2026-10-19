@@ -69,5 +69,11 @@
   },
   "custom_domain": "",
   "nav_logo": "https://assets.cdn.filesafe.space/KUaMUc8BxyxYui9dVFR1/media/4f2c9ba2-464e-4da6-9190-8e8550d2d643.png",
-  "phone_img": "https://assets.cdn.filesafe.space/KUaMUc8BxyxYui9dVFR1/media/08ff9f35-d1d2-4a2c-840f-257ac8133fcf.png"
+  "phone_img": "https://assets.cdn.filesafe.space/KUaMUc8BxyxYui9dVFR1/media/08ff9f35-d1d2-4a2c-840f-257ac8133fcf.png",
+  "surveys": {
+    "plan_finder": "y0acOyxFzE9XU2makiH9"
+  },
+  "survey_heights": {
+    "plan_finder": 680
+  }
 }

@@ -17,6 +17,7 @@ Tokens
   {{programs}}             one-time program cards grouped by category
   {{cta:Title|Text}}       closing CTA band
   {{quiz}}                 "Find my training option" quiz
+  {{survey:key}}           native GHL survey embed (config surveys)
 """
 import html, json, pathlib, re, shutil
 
@@ -65,6 +66,15 @@ def form_embed(key):
             f'data-deactivation-value="" data-form-name="{esc(key)}" data-height="{h}" data-layout-iframe-id="inline-{fid}" '
             f'data-form-id="{fid}" title="{esc(key)} form" '
             f'style="width:100%;height:100%;min-height:{h}px;border:none;border-radius:8px"></iframe></div>')
+
+
+def survey_embed(key):
+    sid = CFG["surveys"][key]
+    h = CFG.get("survey_heights", {}).get(key, 700)
+    src = f'{CFG["form_host"]}/widget/survey/{sid}'
+    return (f'<div class="form-box" style="min-height:{h}px"><iframe src="{esc(src)}" id="{sid}" '
+            f'style="border:none;width:100%;min-height:{h}px;border-radius:8px" scrolling="no" title="Plan finder survey"></iframe>'
+            f'<script src="{CFG["form_host"]}/js/form_embed.js"></script></div>')
 
 
 FAQ_USED = []
@@ -133,6 +143,7 @@ def render_tokens(body):
     body = re.sub(r"\{\{faq:(.+?)\}\}", lambda m: faq_block(m.group(1)), body)
     body = re.sub(r"\{\{link:([a-z_0-9]+)\}\}", lambda m: link(m.group(1)), body)
     body = re.sub(r"\{\{form:([a-z_]+)\}\}", lambda m: form_embed(m.group(1)), body)
+    body = re.sub(r"\{\{survey:([a-z_]+)\}\}", lambda m: survey_embed(m.group(1)), body)
     body = re.sub(r"\{\{cta:(.+?)\}\}", lambda m: cta_band(m.group(1)), body)
     body = re.sub(r"\{\{img:(.+?)\}\}", lambda m: img_url(m.group(1)), body)
     body = body.replace("{{programs}}", programs_block()).replace("{{quiz}}", QUIZ)
