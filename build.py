@@ -228,7 +228,7 @@ def layout(title, desc, path, body, active=None, schema=None, noindex=False):
 <meta property="og:url" content="{canon}"><meta property="og:image" content="{CFG['og_image']}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0A0A0B">
-<link rel="icon" href="{CFG['logo']}">
+<link rel="icon" type="image/png" href="{SITE_URL}/favicon.png"><link rel="icon" href="{SITE_URL}/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="{SITE_URL}/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}assets/site.css?v={CSS_V}">
@@ -338,6 +338,8 @@ def build():
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
+    for fn in (ROOT / "src" / "static").glob("*"):
+        shutil.copy(fn, OUT / fn.name)
     (OUT / ".nojekyll").write_text("")
     if CFG.get("custom_domain"):
         (OUT / "CNAME").write_text(CFG["custom_domain"] + "\n")
