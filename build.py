@@ -205,7 +205,16 @@ def layout(title, desc, path, body, active=None, schema=None, noindex=False):
            + nl("Success Stories", "success-stories/") + nl("FAQ", "faq/")
            + f'<a href="{CFG["login_url"]}" rel="noopener">Log In</a>'
            + f'<a class="btn sm" href="{link("trial").replace("{{root}}", root)}" rel="noopener">14 Days Free</a>')
-    schemas = schema if isinstance(schema, list) else ([schema] if schema else [])
+    schemas = list(schema) if isinstance(schema, list) else ([schema] if schema else [])
+    if path:
+        schemas.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
+            {"@type": "ListItem", "position": 2, "name": title.split(" | ")[0], "item": canon}]})
+    else:
+        schemas.append({"@context": "https://schema.org", "@type": "WebSite", "name": "T2W Fit Training App", "url": SITE_URL})
+    if path == "workout-library/":
+        schemas.append({"@context": "https://schema.org", "@type": "ItemList", "name": "T2W Fit Workout Library",
+                        "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": w["name"]} for i, w in enumerate(WORKOUTS)]})
     ld = "".join(f'<script type="application/ld+json">{json.dumps(s)}</script>' for s in schemas)
     robots = '<meta name="robots" content="noindex,follow">' if noindex else ""
     page = f"""<!doctype html>
@@ -300,7 +309,8 @@ def write_ghl_snippet(page, path):
         return f'{attr}="{SITE_URL}/{v}"'
 
     body = re.sub(r'(href|src)="([^"]*)"', fix, body)
-    snippet = f'{fonts}\n<style>\n{css}\nhtml,body{{background:#0A0A0B!important;overflow-x:hidden}}\n</style>\n<div class="t2w-ghl" style="background:#0A0A0B">\n{body}\n</div>\n'
+    ld = "".join(re.findall(r'<script type="application/ld\+json">.*?</script>', page, re.S))
+    snippet = f'{fonts}\n{ld}\n<style>\n{css}\nhtml,body{{background:#0A0A0B!important;overflow-x:hidden}}\n</style>\n<div class="t2w-ghl" style="background:#0A0A0B">\n{body}\n</div>\n'
     d = OUT / "_ghl"
     d.mkdir(parents=True, exist_ok=True)
     (d / f"{slugify(path) if path else 'home'}.html").write_text(snippet)
