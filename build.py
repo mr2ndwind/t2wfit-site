@@ -256,7 +256,7 @@ def write_ghl_snippet(page, path):
         return f'{attr}="{SITE_URL}/{v}"'
 
     body = re.sub(r'(href|src)="([^"]*)"', fix, body)
-    snippet = f'{fonts}\n<style>\n{css}\n</style>\n<div class="t2w-ghl" style="background:#0A0A0B">\n{body}\n</div>\n'
+    snippet = f'{fonts}\n<style>\n{css}\nhtml,body{{background:#0A0A0B!important;overflow-x:hidden}}\n</style>\n<div class="t2w-ghl" style="background:#0A0A0B">\n{body}\n</div>\n'
     d = OUT / "_ghl"
     d.mkdir(parents=True, exist_ok=True)
     (d / f"{slugify(path) if path else 'home'}.html").write_text(snippet)

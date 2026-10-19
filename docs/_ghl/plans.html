@@ -294,6 +294,13 @@ footer{background:#000}
 .sec-head{text-align:center;max-width:760px;margin:0 auto 12px}
 .sec-head .lead{margin:0 auto;color:var(--gray)}
 
+/* Logo: keep natural proportions even inside GHL (flex shrink / img max-width overrides) */
+.logo{flex:none}
+.logo img{height:52px!important;width:auto!important;max-width:none!important}
+/* GHL embed: break out of the page-builder row so the dark background runs edge to edge */
+.t2w-ghl{width:100vw;position:relative;left:50%;margin-left:-50vw;background:#0A0A0B}
+
+html,body{background:#0A0A0B!important;overflow-x:hidden}
 </style>
 <div class="t2w-ghl" style="background:#0A0A0B">
 
@@ -333,7 +340,7 @@ footer{background:#000}
 <ul class="checks"><li>4 one-on-one personal training sessions per month</li><li>60-minute personal training sessions</li><li>Personalized app programming</li><li>Workouts for non-PT days</li><li>Weekly coach check-ins</li><li>Direct in-app coach messaging</li><li>Program adjustments</li><li>Nutrition and habit coaching</li><li>Progress-photo and measurement tracking</li><li>Goal setting and progress reviews</li><li>Eligible digital challenges</li><li>Select member benefits</li><li>Up to 1 InBody assessment credit per month when recommended by your coach</li></ul>
 <p class="muted" style="font-size:.85rem">Team classes are not automatically included. Add a studio class membership separately if desired.</p>
 <a class="btn" href="https://links.team2ndwind.com/payment-link/6ad51f75db15f6a453c8ad90" rel="noopener">Start Hybrid Coaching</a></div>
-<div class="card accent plan"><span class="badge">Flagship</span><span class="eyebrow">Classes + Digital</span><h3>T2W Studio Unlimited Plus</h3><p class="muted">Our flagship membership. Unlimited coach-led Team Training at T2W Fit Studio, a free InBody scan every month, and the T2W Fit Digital Plus app included at no extra cost.</p><div class="price">$219<small>/month</small></div>
+<div class="card accent plan"><span class="eyebrow">Classes + Digital</span><h3>T2W Studio Unlimited Plus</h3><p class="muted">Unlimited coach-led Team Training at T2W Fit Studio, a free InBody scan every month, and the T2W Fit Digital Plus app included at no extra cost.</p><div class="price">$219<small>/month</small></div>
 <ul class="checks"><li>Unlimited eligible Team Training classes</li><li>T2W Fit Digital Plus app included</li><li>Digital workouts for non-studio days</li><li>Free InBody scan every month</li><li>Training tracking</li><li>Eligible challenges and member benefits</li></ul>
 <a class="btn" href="https://links.team2ndwind.com/payment-link/6a2b7b5b71a0aa761e46460e" rel="noopener">Choose Studio Unlimited Plus</a></div>
 <div class="card accent plan"><span class="eyebrow">Consistent Team Training</span><h3>T2W Studio 12</h3><p class="muted">12 coach-led Team Training classes each month at T2W Fit Studio. A structured, flexible plan with expert coaching, accountability, and a supportive community.</p><div class="price">$159<small>/month</small></div>
