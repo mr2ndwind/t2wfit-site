@@ -1,0 +1,386 @@
+[
+ {
+  "cat": "Les Mills Program",
+  "name": "BODYPUMP",
+  "desc": "Total-body strength endurance using structured resistance training.",
+  "dur": "30–55 minutes",
+  "level": "All Levels",
+  "type": "Strength",
+  "benefits": [
+   "Build lean muscle",
+   "Get toned",
+   "Feel strong"
+  ],
+  "equip": "Barbell / dumbbells",
+  "yt": "0kjOHJuwMq8",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/188c684d-2ee2-4d5d-8548-e9e534b05ba8.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "BODYCOMBAT",
+  "desc": "Martial-arts-inspired cardio designed to improve conditioning, coordination, and confidence.",
+  "dur": "25–55 minutes",
+  "level": "All Levels",
+  "type": "Cardio",
+  "benefits": [
+   "High energy",
+   "Stress relief",
+   "Total body conditioning"
+  ],
+  "equip": "None",
+  "yt": "-Shdc2HvsGU",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/8c578a07-947d-4a11-b913-b5e7ddc6ef10.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "LES MILLS DANCE",
+  "desc": "Rhythm-based cardio that builds confidence, movement quality, and energy.",
+  "dur": "30–45 minutes",
+  "level": "All Levels",
+  "type": "Cardio",
+  "benefits": [
+   "Fun music",
+   "Improved coordination",
+   "Endorphin boost"
+  ],
+  "equip": "None",
+  "yt": "g-AWzcIUykI",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/a1ed71d1-139a-4206-9bc7-6ec011514a16.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "MIND-BODY TRAINING",
+  "desc": "Yoga-inspired movement, mobility, flexibility, balance, and recovery.",
+  "dur": "30–55 minutes",
+  "level": "All Levels",
+  "type": "Mobility",
+  "benefits": [
+   "Flexibility",
+   "Stress relief",
+   "Body awareness"
+  ],
+  "equip": "Optional mat",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/19698365-5ae6-4a13-aa1a-21191a1c25b2.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "LES MILLS GRIT",
+  "desc": "High-intensity interval training (HIIT) designed to improve strength and cardiovascular fitness.",
+  "dur": "30 minutes",
+  "level": "Advanced",
+  "type": "Cardio/Strength",
+  "benefits": [
+   "Maximum calorie burn",
+   "Athletic performance",
+   "Metabolic boost"
+  ],
+  "equip": "Varies",
+  "yt": "fCa28xvF2-g",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/ec397aa8-271a-43a0-b7a4-7ce6adf7d603.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "BODYJAM",
+  "desc": "The ultimate electronic dance music workout.",
+  "dur": "30–55 minutes",
+  "level": "All Levels",
+  "type": "Cardio",
+  "benefits": [
+   "Learn to dance",
+   "Cardio fitness",
+   "Pure fun"
+  ],
+  "equip": "None",
+  "yt": "SWP8DhF6lpY",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/a1ed71d1-139a-4206-9bc7-6ec011514a16.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "BODYPUMP HEAVY",
+  "desc": "Advanced BodyPump sessions focused on heavier resistance and lower repetitions.",
+  "dur": "45–55 minutes",
+  "level": "Advanced",
+  "type": "Strength",
+  "benefits": [
+   "Hypertrophy",
+   "Max strength",
+   "Power development"
+  ],
+  "equip": "Barbell, plates, dumbbells",
+  "yt": "Jfyxfyat3F0",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/188c684d-2ee2-4d5d-8548-e9e534b05ba8.png"
+ },
+ {
+  "cat": "Premium Guided Workout",
+  "name": "FUNCTIONAL STRENGTH",
+  "desc": "Practical strength, control, and athletic movement.",
+  "dur": "45 minutes",
+  "level": "Intermediate",
+  "type": "Strength",
+  "benefits": [
+   "Improved posture",
+   "Real-world strength",
+   "Joint stability"
+  ],
+  "equip": "Dumbbells or kettlebells",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/390d0d75-cb26-4b30-9aa1-55da5ef3d2a7.png"
+ },
+ {
+  "cat": "Premium Guided Workout",
+  "name": "CORE TRAINING",
+  "desc": "Core strength, stability, and posture focused on rotational power.",
+  "dur": "20–45 minutes",
+  "level": "All Levels",
+  "type": "Core",
+  "benefits": [
+   "Abdominal definition",
+   "Back support",
+   "Improved balance"
+  ],
+  "equip": "Mat, optional weight plate",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/dcd988e3-8fd0-4864-b439-ecd9dd4cfafe.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "SHAPES",
+  "desc": "Low-impact strength, Pilates-inspired movement, and controlled training.",
+  "dur": "45 minutes",
+  "level": "All Levels",
+  "type": "Strength",
+  "benefits": [
+   "Lean muscle",
+   "Flexibility",
+   "Mind-body connection"
+  ],
+  "equip": "Mat, small weights",
+  "yt": "-2nAYX73-sY",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/746e6ce8-6c3a-42f7-aa15-d441dda948a1.png"
+ },
+ {
+  "cat": "Premium Guided Workout",
+  "name": "ATHLETIC CARDIO",
+  "desc": "Athletic cardio, agility, and conditioning drills.",
+  "dur": "20–35 minutes",
+  "level": "Advanced",
+  "type": "Cardio",
+  "benefits": [
+   "High calorie burn",
+   "Improved stamina",
+   "Agility"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/ec397aa8-271a-43a0-b7a4-7ce6adf7d603.png"
+ },
+ {
+  "cat": "Premium Guided Workout",
+  "name": "INDOOR CYCLING",
+  "desc": "Cycling-based cardio training for endurance and power.",
+  "dur": "18–32 minutes",
+  "level": "All Levels",
+  "type": "Cardio",
+  "benefits": [
+   "Leg strength",
+   "Low impact",
+   "Aerobic fitness"
+  ],
+  "equip": "Stationary cycle required",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/f5babf4e-51ab-43e3-8837-0bd60cad5263.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "BODYBALANCE",
+  "desc": "Yoga-inspired mobility, flexibility, and strength.",
+  "dur": "30–55 minutes",
+  "level": "All Levels",
+  "type": "Mobility",
+  "benefits": [
+   "Balance",
+   "Flexibility",
+   "Core strength"
+  ],
+  "equip": "Mat",
+  "yt": "57O_SGKDTWs",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/5e9e8828-8b85-4eba-8808-2d42ef0ef827.png"
+ },
+ {
+  "cat": "Recovery",
+  "name": "YOGA",
+  "desc": "Slow flow, Yin yoga, hip flow, and shorter recovery sessions.",
+  "dur": "5–55 minutes",
+  "level": "All Levels",
+  "type": "Flexibility",
+  "benefits": [
+   "Mental clarity",
+   "Full body stretch",
+   "Breathing control"
+  ],
+  "equip": "Mat",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/593bcadc-a156-4af9-8758-fcfd56c99ff4.png"
+ },
+ {
+  "cat": "Les Mills Program",
+  "name": "PILATES",
+  "desc": "Controlled core strength and mobility for long, lean muscles.",
+  "dur": "45 minutes",
+  "level": "All Levels",
+  "type": "Core/Flexibility",
+  "benefits": [
+   "Postural alignment",
+   "Core power",
+   "Improved stability"
+  ],
+  "equip": "Mat",
+  "yt": "3TIthpskcII",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/c7958a6e-ea7d-4b70-ac23-a6a8d2915f8d.png"
+ },
+ {
+  "cat": "Recovery",
+  "name": "ACTIVE RECOVERY",
+  "desc": "Foam rolling, massage-ball work, and recovery guidance.",
+  "dur": "10–25 minutes",
+  "level": "All Levels",
+  "type": "Recovery",
+  "benefits": [
+   "Muscle repair",
+   "Reduced tension",
+   "Better sleep"
+  ],
+  "equip": "Foam roller, massage ball",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/c6f95bfd-ac02-7505f752f3fd.png"
+ },
+ {
+  "cat": "Recovery",
+  "name": "STRETCH AND MOBILITY",
+  "desc": "Hip, spinal, and upper-body mobility sessions.",
+  "dur": "10–20 minutes",
+  "level": "All Levels",
+  "type": "Mobility",
+  "benefits": [
+   "Improved range of motion",
+   "Reduced stiffness",
+   "Better movement"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/76364c4a-f87d-4af1-a62c-b7d6eb8a6dc8.png"
+ },
+ {
+  "cat": "Mind & Wellness",
+  "name": "BREATHWORK",
+  "desc": "Guided breathing for focus, control, and recovery.",
+  "dur": "5–20 minutes",
+  "level": "All Levels",
+  "type": "Mindfulness",
+  "benefits": [
+   "Stress reduction",
+   "Better focus",
+   "Lung capacity"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/10c07616-8635-471d-b86d-e1d0658a48d2.png"
+ },
+ {
+  "cat": "Mind & Wellness",
+  "name": "MEDITATION",
+  "desc": "Guided sessions for gratitude, body awareness, and relaxation.",
+  "dur": "5–15 minutes",
+  "level": "All Levels",
+  "type": "Mindfulness",
+  "benefits": [
+   "Mental clarity",
+   "Emotional balance",
+   "Stress relief"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/57e22a78-295a-425a-87dc-05a68c4ddf5a.png"
+ },
+ {
+  "cat": "Mind & Wellness",
+  "name": "MINDFULNESS",
+  "desc": "Body scans, breathing awareness, and thought-management sessions.",
+  "dur": "14–20 minutes",
+  "level": "All Levels",
+  "type": "Mindfulness",
+  "benefits": [
+   "Present moment focus",
+   "Mental resilience",
+   "Relaxation"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/87eb6f76-6669-4012-9d13-fa8b13b7088b.png"
+ },
+ {
+  "cat": "Mind & Wellness",
+  "name": "MINDFUL MOVEMENT",
+  "desc": "Gentle mobility and relaxation sessions for the whole body.",
+  "dur": "9–30 minutes",
+  "level": "All Levels",
+  "type": "Mindfulness",
+  "benefits": [
+   "Body awareness",
+   "Relaxation",
+   "Joint health"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/f1fa099c-9e88-4b41-a47c-1ac244602776.png"
+ },
+ {
+  "cat": "Mind & Wellness",
+  "name": "THRIVE",
+  "desc": "Approachable full-body movement for all ages and experience levels.",
+  "dur": "20–30 minutes",
+  "level": "All Levels",
+  "type": "Wellness",
+  "benefits": [
+   "General health",
+   "Inclusive movement",
+   "Energy boost"
+  ],
+  "equip": "None",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/assets/10a7d2a0-b31e-4b18-9afa-87ee17a5c314.png"
+ },
+ {
+  "cat": "T2W Coach Program",
+  "name": "PERSONALIZED STRENGTH",
+  "desc": "Custom-built strength programs tailored to your specific goals and equipment.",
+  "dur": "45–60 minutes",
+  "level": "All Levels",
+  "type": "Strength",
+  "benefits": [
+   "Maximum efficiency",
+   "Expert programming",
+   "Progressive overload"
+  ],
+  "equip": "Varies",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/fa5cdae6-96d9-42f6-8291-a8d2c0b8c656.png"
+ },
+ {
+  "cat": "T2W Coach Program",
+  "name": "ATHLETIC PERFORMANCE",
+  "desc": "Advanced programming to increase power, speed, and agility for competitive athletes.",
+  "dur": "60 minutes",
+  "level": "Advanced",
+  "type": "Performance",
+  "benefits": [
+   "Explosive power",
+   "Sport-specific speed",
+   "Agility"
+  ],
+  "equip": "Gym access",
+  "yt": "",
+  "img": "https://vibe.filesafe.space/1779825322324569551/attachments/ed29c183-b22d-4423-8885-6e63686cfddd.png"
+ }
+]

@@ -118,6 +118,39 @@ def programs_block():
     return "".join(out)
 
 
+WORKOUTS = json.load(open(ROOT / "content" / "workouts.json"))
+
+
+def workouts_block():
+    types = ["Strength", "Cardio", "Mobility", "Recovery", "Core", "Flexibility", "Mindfulness", "Wellness"]
+    chips = '<button type="button" class="on" data-f="all">All</button>' + "".join(
+        f'<button type="button" data-f="{t.lower()}">{t}</button>' for t in types)
+    cards = []
+    for i, w in enumerate(WORKOUTS):
+        tags = " ".join(x.strip().lower() for x in w["type"].split("/"))
+        has_v = "1" if w["yt"] else "0"
+        status = ('<span class="wk-play">&#9654; Watch Preview</span>' if w["yt"] else '<span class="wk-soon">Coming Soon</span>')
+        cards.append(
+            f'<article class="wk" data-i="{i}" data-tags="{esc(tags)}" data-v="{has_v}" data-s="{esc((w["name"] + " " + w["cat"] + " " + w["type"] + " " + w["desc"]).lower())}" tabindex="0" role="button" aria-haspopup="dialog">'
+            f'<div class="wk-img"><img src="{esc(w["img"])}" alt="{esc(w["name"].title())} workout preview" loading="lazy"><span class="wk-tag">{esc(w["cat"])}</span></div>'
+            f'<h3>{esc(w["name"])}</h3><p class="muted">{esc(w["desc"])}</p>'
+            f'<div class="wk-foot"><span>{esc(w["dur"])}</span>{status}</div></article>')
+    data = json.dumps([{k: w[k] for k in ("cat", "name", "desc", "dur", "level", "type", "benefits", "equip", "yt")} for w in WORKOUTS], ensure_ascii=False).replace("</", "<\\/")
+    dlg = ('<dialog id="wk-dlg" class="wk-dlg"><button type="button" class="wk-x" aria-label="Close">&times;</button>'
+           '<div class="wk-media" id="wk-media"></div><div class="wk-body"><span class="eyebrow" id="wk-cat"></span><h3 id="wk-name"></h3>'
+           '<dl class="wk-meta"><div><dt>Duration</dt><dd id="wk-dur"></dd></div><div><dt>Level</dt><dd id="wk-lvl"></dd></div><div><dt>Training type</dt><dd id="wk-type"></dd></div></dl>'
+           '<h4>Focus &amp; Benefits</h4><ul class="checks" id="wk-ben"></ul>'
+           '<p class="wk-eq"><b>Equipment:</b> <span id="wk-eq"></span></p>'
+           '<div class="btns"><a class="btn" href="' + link("trial") + '" rel="noopener">Unlock Full Access</a><a class="btn ghost" href="{{root}}contact/">Ask My Coach</a></div>'
+           '<p class="muted" style="font-size:.8rem;margin-top:14px">Public preview shown. Additional guided workouts and personalized programming are available through qualifying T2W Fit memberships.</p></div></dialog>')
+    js = "<script>" + open(ROOT / "src" / "workouts.js").read().replace("__DATA__", data) + "</script>"
+    return ('<div class="wk-tools"><div class="filters" id="wk-filters">' + chips + '</div>'
+            '<div class="wk-row"><label class="wk-toggle"><input type="checkbox" id="wk-video"> <span>Video available</span></label>'
+            '<input type="search" id="wk-search" placeholder="Search workouts..." aria-label="Search workouts"></div></div>'
+            f'<div class="wk-grid" id="wk-grid">{"".join(cards)}</div><p class="muted" id="wk-empty" hidden style="margin-top:20px">No workouts match. Try another filter or search.</p>'
+            + dlg + js)
+
+
 QUIZ = """<div class="quiz" id="quiz"><span class="eyebrow">2-Minute Plan Finder</span><h3 id="q-title">What do you want most from your training?</h3>
 <div class="opts" id="q-opts"></div>
 <div class="result" id="q-res"></div></div>
@@ -146,7 +179,7 @@ def render_tokens(body):
     body = re.sub(r"\{\{survey:([a-z_]+)\}\}", lambda m: survey_embed(m.group(1)), body)
     body = re.sub(r"\{\{cta:(.+?)\}\}", lambda m: cta_band(m.group(1)), body)
     body = re.sub(r"\{\{img:(.+?)\}\}", lambda m: img_url(m.group(1)), body)
-    body = body.replace("{{programs}}", programs_block()).replace("{{quiz}}", QUIZ)
+    body = body.replace("{{programs}}", programs_block()).replace("{{quiz}}", QUIZ).replace("{{workouts}}", workouts_block())
     body = body.replace("{{phone}}", CFG["phone_display"]).replace("{{tel}}", CFG["phone_tel"]).replace("{{email}}", CFG["email"])
     schema = None
     if FAQ_USED:
